@@ -1,0 +1,8 @@
+title: Suspicious AD CS Request with SAN
+id: 3c8e4011-8201-49fa-9488-cb94d7621901
+status: test
+description: Detects suspicious certificate enrollment requests specifying Subject Alternative Name.
+level: high
+tags:
+    - attack.credential_access
+    - attack.t1649
